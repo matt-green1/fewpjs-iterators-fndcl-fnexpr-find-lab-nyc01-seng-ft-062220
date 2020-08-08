@@ -9,12 +9,12 @@ function testFunc() {
 
 function superbowlWin(arrayOfObjs) {
     let win = arrayOfObjs.find(function(obj) {
-      obj.result === "W"
+      return obj.result === "W"
     })
     
-    if(win){ 
-      return win.year
-    } else {
-      return undefined
-    }
+    // if(win){ 
+    //   return win.year
+    // } else {
+    //   return undefined
+    // }
 }
